@@ -1,5 +1,6 @@
-body{
+body {
 place-self: center;
+
 }
 
 
@@ -14,24 +15,33 @@ nav > a {
 display: flex;
 flex-direction: column;
 align-items:center ;
-margin: 100px;
+margin: 60px;
 }
 
 
-img{
+nav > img{
+  margin: 30px;
+  width: 100px;
+  height: 100px;
+  border-radius:50%;
+}
 
+main > img{
+   margin: 30px;
   width: 200px;
   height: 200px;
+
 }
 
 main {
 
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items:center ;
 
 }
 
 p{
+  margin: 30px;
   width: 300px;
 }
